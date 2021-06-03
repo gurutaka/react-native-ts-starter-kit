@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ts_template",
-    "slug": "ts_template",
+    "name": "react-native-ts-starter-kit",
+    "slug": "react-native-ts-starter-kit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,9 +13,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
