@@ -6,6 +6,8 @@
     "ios": "expo start --ios --localhost",
     "web": "expo start --web",
     "eject": "expo eject",
+    "lint:fix": "eslint . --fix --ignore-path .gitignore --ext .js,jsx,.ts,.tsx",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,json}'",
     "postinstall": "typesync && yarn install --ignore-scripts"
   },
   "prettier": {
